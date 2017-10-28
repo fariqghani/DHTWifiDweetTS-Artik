@@ -34,8 +34,8 @@ DHT dht(DHTPIN, DHTTYPE);
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "FG Tijarah SB";
-char pass[] = "fgt98765";
+char ssid[] = "ssid";
+char pass[] = "pass";
 ESP8266Client client;
 
 // Hardware Serial on Mega, Leonardo, Micro...
@@ -53,8 +53,8 @@ int port = 443;                       // 443 for HTTPS
 
 char buf[200];                        // body data to store the JSON to be sent to the ARTIK cloud 
 
-String deviceID = "ee9ca858269d4eadb2d94753c93ee1e6"; // put your device id here created from tutorial 
-String deviceToken = "c0ef4ecd978b493cb20a4dca6d5af63a"; // put your device token here created from tutorial
+String deviceID = "your device id"; // put your device id here created from tutorial 
+String deviceToken = "your device token"; // put your device token here created from tutorial
 
 float t;
 float h;
